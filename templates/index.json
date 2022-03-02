@@ -66,6 +66,17 @@
         "padding_top": 28
       }
     },
+    "content_card": {
+      "type": "content-card",
+      "settings": {
+        "title": "Content card",
+        "collection": "all",
+        "products_to_show": 8,
+        "show_view_all": false,
+        "show_secondary_image": true,
+        "padding_top": 28
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -120,6 +131,7 @@
   },
   "order": [
     "image_banner",
+    "content_card",
     "rich_text",
     "featured_collection",
     "collage",
